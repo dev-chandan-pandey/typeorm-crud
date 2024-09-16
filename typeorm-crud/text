@@ -1,0 +1,3 @@
+// "start": "nodemon --watch src --exec ts-node src/app.ts"
+//"start": "nodemon --watch src --exec ts-node src/app.ts"
+//"start": "nodemon dist/app.js",

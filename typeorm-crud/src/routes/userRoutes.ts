@@ -1,0 +1,13 @@
+import { Router } from "express";
+import { createUser, getUsers, getUserById, updateUser, deleteUser } from "../controllers/userController";
+
+const router = Router();
+
+// Define routes and map them to the controller functions
+router.post("/users", createUser);
+router.get("/users", getUsers);
+router.get("/users/:id", getUserById);
+router.put("/users/:id", updateUser);
+router.delete("/users/:id", deleteUser);
+
+export default router;
