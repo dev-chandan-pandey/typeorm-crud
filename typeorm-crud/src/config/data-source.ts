@@ -22,7 +22,7 @@ export const AppDataSource = new DataSource({
     database: "cdndb",
     username: "root",       // Ensure this is correct
     password: "fw28_022",   // Ensure this is correct
-    synchronize: false,
+    synchronize: true,
     port: 3306,
     logging: true,
     entities: [User],
